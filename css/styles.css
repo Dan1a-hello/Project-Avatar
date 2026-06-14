@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: centersawdas;
+    gap: 50px;
+}
+
+.logo-link {
+margin: 50px 0 0 100px;
+}
