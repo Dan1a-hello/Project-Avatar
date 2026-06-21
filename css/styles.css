@@ -168,16 +168,40 @@
     margin-left: 60px;
     font-size: 20px;
     color: #00c3ff;
-
     background: transparent;
     border: 2px solid #00c3ff;
     border-radius: 12px;
-
-    cursor: pointer;
-    transition: .3s;
 }
 
 .btn2:hover {
+    transition: .3s;
     background: #00c3ff;
     color: #fff;
+}
+
+.btn3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 50px;
+    font-size: 20px;
+    color: #00c3ff;
+    background: blue;
+    border: 2px solid #00c3ff;
+    border-radius: 12px;
+
+}
+
+.btn3:hover {
+    transition: .3s;
+    background: #00c3ff;
+    color: #fff;
+}
+
+.hero2 {
+    position: relative;
+    height: 740px;
+    background-image: url(../images/Rectangle\ 10.png);
+    background-size: cover;
 }
